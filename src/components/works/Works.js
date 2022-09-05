@@ -14,12 +14,15 @@ import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
 import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Button from '@mui/material/Button';
 
 const useStyles = makeStyles((theme) => ({
   main: {
     maxWidth: '100vw',
     marginTop: '3em',
     marginBottom: "auto",
+    display:'flex',
+    flexWrap:'wrap',
   },
 }));
 
@@ -73,7 +76,7 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
-          <div className="project" key={ project.id }>
+          <div className="project"  key={ project.id }>
             {/* <Link to='https://sportify-8829a.web.app/'> */}
             {/* <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter }/>
@@ -86,6 +89,7 @@ export const Works = () => {
               <p className="description">
                 { project.description }
               </p>
+            <Button variant="contained" onClick={()=>window.open(project.url)} style={{ textTransform:'capitalize', marginTop: '10px', marginBottom: '10px' }}>View Live</Button>
             </div>
           </div>
         ))}

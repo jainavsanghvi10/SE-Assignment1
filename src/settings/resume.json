@@ -11,7 +11,7 @@
         "description": "Hello! I'm Jainav! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
         "summary": "based in Bangalore, India.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "url": "/",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
@@ -29,13 +29,13 @@
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
+                "username": "jainav sanghvi",
                 "url": "https://www.linkedin.com/in/jainav-sanghvi-933a8a1b8/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
+                "username": "jainavsanghvi10",
                 "url": "https://github.com/jainavsanghvi10",
                 "x_icon": "fab fa-github"
             },
