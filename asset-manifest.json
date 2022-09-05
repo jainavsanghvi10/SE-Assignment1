@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.badf9a85.css",
+    "main.js": "/static/js/main.d8e952e4.js",
+    "static/js/333.ff23a92f.chunk.js": "/static/js/333.ff23a92f.chunk.js",
+    "static/media/lacalle.png": "/static/media/lacalle.46e4f32c9b4d72a6fb3a.png",
+    "static/media/profile51.png": "/static/media/profile51.04d0dd1e927a1dc5ba0c.png",
+    "static/media/startup.png": "/static/media/startup.22dae5e61e55b93dab4b.png",
+    "static/media/lofo.png": "/static/media/lofo.3fa6c321cc9ec54fd49d.png",
+    "static/media/Sportify1.png": "/static/media/Sportify1.e95960bd9287bc58ffbe.png",
+    "static/media/Jainav_Sanghvi_Resume.pdf": "/static/media/Jainav_Sanghvi_Resume.26a3ab6a0da8ba4c486f.pdf",
+    "static/media/veritru.png": "/static/media/veritru.7176315ff5f5b96d88d5.png",
+    "index.html": "/index.html",
+    "main.badf9a85.css.map": "/static/css/main.badf9a85.css.map",
+    "main.d8e952e4.js.map": "/static/js/main.d8e952e4.js.map",
+    "333.ff23a92f.chunk.js.map": "/static/js/333.ff23a92f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.badf9a85.css",
+    "static/js/main.d8e952e4.js"
+  ]
+}
