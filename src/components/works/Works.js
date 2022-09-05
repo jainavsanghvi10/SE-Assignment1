@@ -4,11 +4,12 @@ import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
+import { Link } from 'react-router-dom';
 
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
+import Sportify from '../../assets/recentprojects/Sportify1.png';
 import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
@@ -27,45 +28,43 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
+      title: 'Sportify', 
+      description: `Designed and Developed a web application to manage sports tournaments and create/update fixtures and live scores of different events. Was Used for IIITB Sports Fest, Spandan. Built using Reactjs, Firebase`,
+      url:"https://sportify-8829a.web.app/",
+      alter: 'Sportify',
+      image: `${Sportify}`,
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
+      title: 'Complaint Box', 
+      description: `The official Complaint Box of every school and company in India, so that the complaints of people can be
+      heard and administration can look into it and improve it. Built using MERN Stack`,
+      url:'https://github.com/pushkarpawar15/complaint-box',
+      alter: 'Complaint Box',
       image: `${Veritru}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
+      title: 'Dungeon Crawler', 
+      description: `2D Dungeon Crawler Game based on The Legend of Zelda built with the help of SDL Library in C++`,
+      url:'https://github.com/jainavsanghvi10/Dungeon-Crawler',
+      alter: 'Dungeon Crawler',
       image: `${Lofo}`,
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
+      title: 'Friska', 
+      description: `A Startup Projetc. Website for Health Related Services(Your Health Buddy Application)`,
+      url:'https://friskanow.com/',
+      alter: 'Friska',
       image: `${Startup}`,
     },
     { 
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
+      title: 'Survival Death Valley', 
+      description: `This is a Two Dimensional Racing Car Game developed by using pygame module in python.`,
+      url:'https://github.com/jainavsanghvi10/Survival-Death-Valley',
+      alter: 'Survival Death Valley',
       image: `${Lacalle}`,
     },
   ]);
@@ -75,9 +74,11 @@ export const Works = () => {
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
           <div className="project" key={ project.id }>
-            <div className="__img_wrapper">
+            {/* <Link to='https://sportify-8829a.web.app/'> */}
+            {/* <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter }/>
-            </div>
+            </div> */}
+            {/* </Link> */}
             <div className="__content_wrapper">
               <h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />

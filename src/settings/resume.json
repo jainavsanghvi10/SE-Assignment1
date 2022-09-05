@@ -1,59 +1,47 @@
 {
     "basics": {
-        "name": "Mark Tan",
+        "name": "Jainav Sanghvi",
         "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
+        "email": "jainavjain2001@gmail.com",
         "phone": "(XXX) XXX-XXXX",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
         "job1": "Web",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
+        "description": "Hello! I'm Jainav! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "summary": "based in Bangalore, India.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
         "url": "https://taniyow.vercel.app/",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Bangalore",
+            "country": "India",
+            "countryCode": "Ind",
+            "region": "Karnataka"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "jainavjain2001@gmail.com",
+                "url": "mailto:jainavjain2001@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
                 "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "url": "https://www.linkedin.com/in/jainav-sanghvi-933a8a1b8/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
                 "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "url": "https://github.com/jainavsanghvi10",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
                 "network": "Discord",
-                "username": "taniyow#9142",
+                "username": "JShark#3581",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
             }
@@ -83,11 +71,11 @@
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
+            "institution": "International Institute of Information Technology, Bangalore",
+            "area": "Comnputer Science and Engineering",
+            "studyType": "Bachelor + Masters",
+            "startDate": "2020-10-01",
+            "endDate": "2026-06-01",
             "gpa": "4.0",
             "courses": ["DB1101 - Basic SQL"]
         }
@@ -111,14 +99,14 @@
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": ["Web Development", "Problem Solving", "Competitive Programming","Machine Learning"],
+            "level": "Intermediate",
+            "keywords": ["HTML", "CSS", "Javascript","ReactJS","Linux","C++","JAVA","Python"]
         }
     ],
     "languages": [
         {
-            "language": "German",
+            "language": "Hindi",
             "fluency": "Native speaker"
         },
         {
@@ -132,7 +120,7 @@
     ],
     "interests": [
         {
-            "name": "Wildlife",
+            "name": ["Wildlife", "Football", "Running", "Cricket", "Trekking", "Swimming"],
             "keywords": ["Ferrets", "Unicorns"]
         }
     ],
